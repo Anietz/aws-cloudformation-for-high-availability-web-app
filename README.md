@@ -1,7 +1,7 @@
 # AWS CloudFormation script for high availability web app
 
-### This project aims to deploy a high available web app using Cloud Formation script written in `YAML`.
-### It first creates the networking component (VPC, Subnets, Nat gateways, Internet gateways) and then creates the server components (LoadBalancer, Launch Configuration, AutoScaling group a health check, security groups and a Listener and Target Group).
+This project aims to deploy a high available web app using Cloud Formation script written in `YAML`.
+It first creates the networking component (VPC, Subnets, Nat gateways, Internet gateways) and then creates the server components (LoadBalancer, Launch Configuration, AutoScaling group a health check, security groups and a Listener and Target Group).
 <br/>
 <br/>
 
