@@ -15,13 +15,32 @@
 # Running the scripts
 
 
-### Example for Network infrastructure
+### Example for Creating Stack - Network infrastructure
 ``
 ./create_stack.sh UdacityUdagramNetwork network.yml network_parameters.json 
 ``
 
-### Example for Server infrastructure
+### Example for Creating Stack - Server infrastructure
 
 ``
 ./create_stack.sh UdacityUdagramServer server.yml server_parameters.json
+``
+
+### Example for Updating Stack - Network infrastructure
+
+``
+./update_stack.sh UdacityUdagramNetwork network.yml network_parameters.json
+``
+
+
+### Example for Updating Stack - Network infrastructure
+
+``
+./update_stack.sh UdacityUdagramNetwork network.yml network_parameters.json
+``
+
+### Example for Deleting Stack - Network infrastructure
+
+``
+./delete_stack.sh UdacityUdagramNetwork
 ``
